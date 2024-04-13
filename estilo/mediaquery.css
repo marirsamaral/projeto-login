@@ -2,11 +2,55 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px) {/*versão tablet*/
     section#login{
-        width: 90vw;
+        width: 80vw;
+       
 
     }
 
     section#login > div#imagens {
         float: left; /*para a imagens ir para o lado esquerdo */
+        width: 50%;
+        height: 100%;
+    }
+
+    section#login > div#formularios {
+        float: right;
+        width: 70%;
+        
+    }
+
+    #imagens {display: inline-block}
+
+    div#formulario {
+        font-size: 1.2em;
+        
     }
 } 
+
+@media screen and (min-width: 992px) {
+    section#login {
+        width: 950px;
+    }
+
+    section#login > div#imagens {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+    
+    section#login > div#formularios { 
+        float: right;
+        width: 50%;
+
+    }
+
+    div#formulario {
+        font-size: 1.2em;
+        
+    }
+
+    .botão {
+        display: block;
+    }
+
+}
